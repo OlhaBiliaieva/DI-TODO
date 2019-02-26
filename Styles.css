@@ -1,12 +1,31 @@
+body, html {
+    height: 100%;
+    background-color: #f3f4f6;
+}
 
-#h1{
-    color: green;
-    font-size: 50px;
-    font-weight: 900;
-    line-height: 10;
-    width: 200px;
-    height: 10px;
+.main-container {
+    height: 100%;
+    width: 100%;
+    max-width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
 }
-.h1, .h2, h1 {
-    color: red;
+header {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
 }
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: black; /* Цвет линии */
+    color:black; /* Цвет линии для IE6-7 */
+    height: 6px; /* Толщина линии */
+    width: 750px;
+   }
+  
